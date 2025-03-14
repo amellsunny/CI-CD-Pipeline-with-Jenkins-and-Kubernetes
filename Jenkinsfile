@@ -16,7 +16,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/AmalSunny992/weather-app.git'
+                git branch: 'main', url: 'https://github.com/amellsunny/java-app.git'
             }
         }
        
